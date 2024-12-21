@@ -8,11 +8,11 @@ int main(){
     cout << "Give me an integer ill check if its even or not" ;
     cin >> num;
     bool iseven = (num % 2 == 0);
-    if (iseven == true){
+    if (iseven){
         cout << "Its even" << endl;
 
     }
-    else if (iseven == false){
+    else {
         cout << "Its an odd integer" << endl;
     }
 

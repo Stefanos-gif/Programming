@@ -10,7 +10,7 @@ int main (){
     cout << "Give me an integer" << endl;
     cin >> num;
 
-    if (num <= 1){
+    if (num <= 1){ // You should use if guards
         cout << "Its not a prime" << endl;
     }
     else{

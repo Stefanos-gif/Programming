@@ -9,7 +9,5 @@ int main(){
     cout << "Actii value of " << let << " is : " << int(let) << endl;
 
 
-
-
     return 0;
 }
