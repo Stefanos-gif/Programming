@@ -8,6 +8,8 @@ int main(){
     string da;
     while(true){
         cout << "dwaadww";
+        int g;
+        cin >> g;
         break;
     }
 
