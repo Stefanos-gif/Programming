@@ -1,3 +1,6 @@
+/*Mini-Project 2: Budget Tracker App
+Objective:
+Track expenses and ensure you don’t exceed a maximum budget using keywords like static, const, switch, void.*/
 #include <iostream>
 
 using namespace std;

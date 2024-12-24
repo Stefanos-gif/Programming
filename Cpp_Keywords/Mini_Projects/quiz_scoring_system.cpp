@@ -1,3 +1,9 @@
+/*Mini-Project 3: Quiz Scoring System
+Objective:
+Create a quiz scoring system that:
+
+Uses if, switch, const, void, static.
+Tracks the total score across multiple questions.*/
 #include <iostream>
 using namespace std;
 
