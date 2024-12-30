@@ -3,13 +3,16 @@
 
 int main() {
   std::vector <std::vector<int>> v ;
+
   std::cout << "Welcome to your own vector matrix!!!\n" << std::endl;
+
   int rows;
   std::cout << "Enter number of rows: ";
   std::cin >> rows;
   int place;
   std::cout << "Enter number of places in each row: ";
   std::cin >> place;
+
   v.resize(rows);
 
   for (int i = 0; i < rows; i++) {
@@ -21,8 +24,6 @@ int main() {
     }
     std::cout << i+2 << " row=>" << std::endl;
   }
-
-
 
   std::cout << "Matrix form of vector: " << std::endl;
   for (int i = 0; i < v.size(); i++) {
