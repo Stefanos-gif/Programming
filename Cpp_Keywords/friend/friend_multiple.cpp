@@ -33,6 +33,4 @@ int main() {
   bvar.setXvalue(20);
   displayclasses(avar, bvar);
 
-
-
 }
