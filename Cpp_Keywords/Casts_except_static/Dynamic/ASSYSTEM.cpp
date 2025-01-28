@@ -21,21 +21,18 @@ public:
 
 
 void handleAnimal(Animal* animal) {
-    if (dynamic_cast<Dog *>(animal)) {
+    if (Dog* d = dynamic_cast<Dog*>(animal)) {
         std::cout << "Animal is a dog!\n";
-        Dog *d = dynamic_cast<Dog *>(animal);
         d->makeSound();
         d->wagTail();
-
     }
-    else if (dynamic_cast<Cat *>(animal)) {
+    else if (Cat* c = dynamic_cast<Cat*>(animal)) {
         std::cout << "Animal is a cat!\n";
-        Cat *c = dynamic_cast<Cat *>(animal);
         c->makeSound();
         c->purr();
     }
     else {
-        std::cout << "Animal is uknown!\n";
+        std::cout << "Animal is unknown!\n";
     }
 }
 
